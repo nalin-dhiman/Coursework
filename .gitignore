@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Data and models
+*.npy
+*.pt
+*.pkl
+*.h5
+*.ckpt
+*.weights
+*.tar
+*.zip
+*.gz
+
+# Logs and outputs
+*.log
+*.out
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode or PyCharm settings
+.vscode/
+.idea/
+
+# Folders you don't want in Git
+data/
+checkpoints/
+experiments/
+outputs/
